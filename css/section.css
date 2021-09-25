@@ -2,7 +2,8 @@ body section {
     width: 100%;
     height: auto;
     background: #282A36;
-    padding: 35px 0;
+    padding: 90px 0;
+    font-size: 16px;
 }
 
 body section h2 {
@@ -10,6 +11,7 @@ body section h2 {
     margin-bottom: 50px;
     color: #fff;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 body section .contenedor-eventos{
@@ -53,4 +55,61 @@ section .contenedor-eventos .caja img {
 
 .descripcion p {
     font-size: 1rem;
+}
+
+@media screen and (max-width: 720px) {
+    section .contenedor-eventos .caja {
+        width: 45%;
+        height: auto;
+        /* background: cornflowerblue; */
+        text-align: center;
+        color: #fff;
+        margin-bottom: 52px;
+    }
+
+    .descripcion {
+        margin-top: 16px;
+        text-align: center;
+    }
+
+    body section .contenedor-eventos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    section .contenedor-eventos .caja img {
+        width: 100%;
+        max-height: 190px;
+        object-fit: cover;
+        margin: 0;
+        vertical-align: top;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    body section .contenedor-eventos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    section .contenedor-eventos .caja {
+        width: 100%;
+        height: auto;
+        /* background: cornflowerblue; */
+        text-align: center;
+        color: #fff;
+        margin-bottom: 52px;
+    }
 }
