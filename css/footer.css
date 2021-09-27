@@ -47,4 +47,12 @@ footer {
         justify-content: space-between;
         margin-bottom: 22px;
     }
+
+    .contenedor-footer h4 {
+        font-size: 16px;
+    }
+
+    .contenedor-footer a {
+        font-size: 16px;
+    }
 }
