@@ -8,10 +8,25 @@ footer {
 
 .contenedor-footer {
     width: 90%;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.contenedor-footer .redes {
+    width: 25%;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.contenedor-footer .redes i {
+    color:white;
+    font-size: 25px;
 }
 
 .contenedor-footer h4 {
@@ -21,4 +36,15 @@ footer {
 .contenedor-footer a {
     text-decoration: none;
     color: #fff;
+}
+
+@media screen and (max-width: 600px){
+    .contenedor-footer .redes {
+        width: 50%;
+        margin: auto;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 22px;
+    }
 }
