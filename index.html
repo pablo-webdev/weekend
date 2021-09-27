@@ -5,12 +5,20 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <title>Typed.js</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
      <link rel="stylesheet" href="./css/styles.css">
+     <link rel="stylesheet" href="css/article.css">
      <link rel="stylesheet" href="css/section.css">
      <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
+
+     <!-- HERO -->
+
      <div class="bg">
           <video src="mp4/disco.mp4" autoplay loop muted>
           </video>
@@ -23,14 +31,14 @@
                          <a href="#">Contacto</a>
                     </nav>
                </header>
-
                <main>
                     <div class="contenedor-img">
                          <img src="./img/logo.png" alt="">
                     </div>
                     <div class="contenedor-texto">
                               <!-- Forma #1 -->
-                              <h1 class="titulo">Amenizamos todo<br> tipo de <span class="typed"></span></h1>
+                              <h1 class="titulo desktop">Cubrimos todo <br> tipo de <span class="typed"></span></h1>
+                              <!-- <h1 class="titulo mobile">Cubrimos todo tipo <br>de <span class="typed"></span></h1> -->
                               
                               <!-- Forma #2 -->
                                    <!-- <h2 class="titulo">
@@ -50,6 +58,45 @@
                </main>
           </div>
      </div>
+
+     <!-- ARTICLE INFORMACIÓN -->
+     <article>
+          <div class="wrapper">
+               <div class="contenedor-info">
+                    <div class="dato">
+                         <h2>Un paquete a tu medida</h2>
+                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis corporis totam in 
+                         magni earum nisi placeat, sapiente reiciendis nobis consectetur hic illum laudantium im
+                         pedit voluptatum corrupti exercitationem autem voluptatem! Voluptate.</p>
+                    </div>
+                    <div class="dato">
+                         <h2>Lugares que cubrimos:</h2>
+                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis corporis totam in 
+                         magni earum nisi placeat, sapiente reiciendis nobis consectetur hic illum laudantium im
+                         pedit voluptatum corrupti exercitationem autem voluptatem! Voluptate.</p>
+                    </div>
+               </div>
+               <div class="contenedor-imagenes">
+                    <div class="imagen uno">
+                         <img src="img/a1.jpg" alt="">
+                    </div>
+                    <div class="imagen dos">
+                         <img src="img/a2.jpg" alt="">
+                    </div>
+                    <div class="imagen tres">
+                         <img src="img/a4.jpg" alt="">
+                    </div>
+                    <div class="imagen cuatro">
+                         <img src="img/a3.jpg" alt="">
+                    </div>
+               </div>
+          </div>
+     </article>
+
+
+
+     <!-- SECTION PRÓXIMOS EVENTOS -->
+
      <section>
           <h2>Próximos Eventos</h2>
           <div class="contenedor-eventos">
@@ -82,6 +129,9 @@
                </div>      
           </div>
      </section>
+
+     <!-- FOOTER -->
+
      <footer>
           <div class="contenedor-footer">
                <div class="redes">

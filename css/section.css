@@ -1,45 +1,68 @@
+/* color: #2B2B2B;
+color: #1A1A1A; */
+
 body section {
     width: 100%;
     height: auto;
-    background: #282A36;
-    padding: 90px 0;
+    background: #2B2B2B;
+    padding: 120px 0;
     font-size: 16px;
 }
 
 body section h2 {
     width: 100%;
     margin-bottom: 50px;
-    color: #fff;
+    
+    background: linear-gradient(60deg,#ff6a3f,#df1238);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent; /*TEXTO CON FONDO DEGRADADO*/
+    
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
+    text-transform: uppercase;
 }
 
 body section .contenedor-eventos{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
     width: 90%;
-    margin: auto;
+    margin: 0 auto;
     padding: 20px;
 }
 
 section .contenedor-eventos .caja {
-    width: 32%;
-    height: 400px;
+    width: 38%;
+    height: auto;
+    margin-bottom: 62px;
     /* background: cornflowerblue; */
     text-align: center;
     color: #fff;
 }
 
-section .contenedor-eventos .caja img {
+section .contenedor-eventos .caja:hover {
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+section .contenedor-eventos .caja .imagen {
+    border: 0px solid white;
+}
+
+section .contenedor-eventos .caja .imagen img {
     width: 100%;
-    max-height: 200px;
+    max-height: 250px;
     object-fit: cover;
     margin: 0;
     vertical-align: top;
 }
+
 
 .descripcion {
     margin-top: 28px;
@@ -50,11 +73,19 @@ section .contenedor-eventos .caja img {
     font-size: 1.3rem;
     margin-bottom: 5px;
     font-weight: 500;
-    color: #ffd900;
+    
+    background: linear-gradient(60deg,#ff6a3f,#df1238);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .descripcion p {
     font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (max-width: 720px) {
@@ -81,6 +112,10 @@ section .contenedor-eventos .caja img {
         width: 90%;
         margin: auto;
         padding: 20px;
+    }
+
+    section .contenedor-eventos .caja .imagen {
+        border: none;
     }
 
     section .contenedor-eventos .caja img {
