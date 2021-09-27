@@ -9,6 +9,12 @@ body section {
     font-size: 16px;
 }
 
+body section .wrapper {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
 body section h2 {
     width: 100%;
     margin-bottom: 50px;
@@ -32,9 +38,9 @@ body section .contenedor-eventos{
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    width: 90%;
-    margin: 0 auto;
-    padding: 20px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 section .contenedor-eventos .caja {
@@ -136,7 +142,7 @@ section .contenedor-eventos .caja .imagen img {
         align-items: center;
         width: 100%;
         margin: auto;
-        padding: 20px;
+        padding: 0px;
     }
 
     section .contenedor-eventos .caja {
@@ -146,5 +152,9 @@ section .contenedor-eventos .caja .imagen img {
         text-align: center;
         color: #fff;
         margin-bottom: 52px;
+    }
+
+    body section h2 {
+        font-size: 1.9rem;
     }
 }

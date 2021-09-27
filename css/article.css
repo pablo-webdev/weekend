@@ -107,6 +107,13 @@ article .wrapper .contenedor-imagenes .cuatro {
         text-align: justify;
     }
 
+    article .wrapper .contenedor-info h2 {
+        text-align: center;
+    }
+    
+    article .wrapper .contenedor-info p {
+        text-align: center;
+    }
 
     article .wrapper .contenedor-imagenes {
         display: grid;
