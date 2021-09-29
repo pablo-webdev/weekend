@@ -5,18 +5,28 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <title>Producciones Weekend</title>
+     <!-- FUENTES | ICONOS -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
      <script src="https://kit.fontawesome.com/67a12af979.js" crossorigin="anonymous"></script> 
+     <!-- PLUGIN CARRUSEL -->
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+     <script src="sss/sss.min.js"></script>
+     <link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
+     <script>jQuery(function($) {$('.slider').sss();});</script>
+     <!-- JQERY ACORDEON -->
      <script src="js/jq.js"></script>
+     <!-- ESTILOS CSS -->
      <link rel="stylesheet" href="./css/styles.css">
      <link rel="stylesheet" href="css/acordeon.css">
      <link rel="stylesheet" href="css/gotop.css">
      <link rel="stylesheet" href="css/article.css">
      <link rel="stylesheet" href="css/section.css">
+     <link rel="stylesheet" href="css/slider.css">
+     <link rel="stylesheet" href="css/sss.css">
      <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
@@ -144,6 +154,58 @@
                     </div>      
                </div>
           </div>
+          
+     </section>
+
+
+     <!-- TESTIMONIOS Y OPINIONES -->
+
+
+     <section class="testimonios">
+          <div class="wrapper">
+               <h2>Algunas opiniones</h2>
+               <div class="slider">
+                    <div class="testimonio">
+                         <div class="persona">
+                              <div class="imagen">
+                                   <img src="img/slider/retrato.jpg" alt="">
+                              </div>
+                              <h5>Luis Ferdz.</h5>
+                         </div>
+                         <div class="comentario">
+                              <p>Me gustó mucho el servicio puesto que ponen el interés que se requiere en el evento,
+                              además de contar con equipo profesional, y personal capacitado.
+                              </p>
+                         </div>
+                    </div>
+                    <div class="testimonio">
+                         <div class="persona">
+                              <div class="imagen">
+                                   <img src="img/slider/retrato-2.jpg" alt="">
+                              </div>
+                              <h5>Juan Armando.</h5>
+                         </div>
+                         <div class="comentario">
+                              <p>Me la pasé increible justo ayer; sin duda volvería a contratarlos.
+                              </p>
+                         </div>
+                    </div>
+                    <div class="testimonio">
+                         <div class="persona">
+                              <div class="imagen">
+                                   <img src="img/slider/retrato-3.jpg" alt="">
+                              </div>
+                              <h5>Dany Rodríguez.</h5>
+                         </div>
+                         <div class="comentario">
+                              <p>Completamente profesionales en mi evento, por lo que quedo completamente satisfecha.
+                              </p>
+                         </div>
+                    </div>
+                    <!-- <div class="sssprev"></div>
+                    <div class="sssnext"></div> -->
+               </div>
+          </div>
      </section>
 
      <!-- FOOTER -->
@@ -171,5 +233,6 @@
      <script src="./js/main.js"></script>
      <script src="js/ac.js"></script>
      <script src="js/up.js"></script>
+     <script src="js/sss.js"></script>
 </body>
 </html>

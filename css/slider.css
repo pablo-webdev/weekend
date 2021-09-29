@@ -1,0 +1,61 @@
+.testimonios {
+    width: 100%;
+    padding: 120px 0;
+    background: #1a1a1a;
+}
+
+.testimonios .wrapper {
+    width: 100%;
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonios .wrapper h2 {
+    margin-bottom: 100px;
+}
+
+.testimonio {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonio .persona .imagen {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 50px auto;
+}
+
+.testimonio .persona .imagen img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.persona h5 {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.comentario {
+    min-height: 100px;
+    max-height: 200px;
+}
+
+.comentario p {
+    min-width: 40%;
+    max-width: 80%;
+    height: 100%;
+    margin: auto;
+    color: #fff;
+    font-style: italic;
+    padding: 15px 25px;
+}
