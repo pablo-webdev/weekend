@@ -5,7 +5,7 @@ window.onscroll = function (){
         document.querySelector('.go-top-cont').classList.remove('show');
     }
 
-    if(document.documentElement.scrollTop > 2500){
+    if(document.documentElement.scrollTop > 2300){
         document.querySelector('.go-top-cont').classList.remove('show');
     }
 }
