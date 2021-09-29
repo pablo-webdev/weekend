@@ -21,13 +21,23 @@ footer {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 18px;
+    padding: 25px 0;
 }
 
 .contenedor-footer .redes i {
     color:white;
     font-size: 25px;
 }
+
+.contenedor-footer .redes i:hover {
+    color: #f2c968;
+    transition: all 0.6s ease;
+}
+
+/* .contenedor-footer .info {
+    background: red;
+    text-align: center;
+} */
 
 .contenedor-footer h4 {
     font-weight: 500;
@@ -45,7 +55,7 @@ footer {
         flex-wrap: wrap;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 22px;
+        padding: 50px 0;
     }
 
     .contenedor-footer h4 {
@@ -54,5 +64,24 @@ footer {
 
     .contenedor-footer a {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .contenedor-footer .redes {
+        width: 50%;
+        margin: auto;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0;
+    }
+
+    .contenedor-footer h4 {
+        font-size: 14px;
+    }
+
+    .contenedor-footer a {
+        font-size: 14px;
     }
 }

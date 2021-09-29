@@ -294,6 +294,7 @@ main .contenedor-img img {
           align-items: center;
           align-content: center;
           flex-wrap: wrap;
+          display: none;
      }
      
      .menu a {
@@ -309,6 +310,7 @@ main .contenedor-img img {
 
      main .contenedor-img {     
           width: 100%;
+          margin-top: 30px; /*A CAUSA DEL ACORDEON*/
      }
      
      main .contenedor-img img {
@@ -339,6 +341,7 @@ main .contenedor-img img {
           font-size: 19px;
           margin-bottom: 40px;
           line-height: 25px;
+          padding: 0px 15px;
      }
      
      .btn-link {
