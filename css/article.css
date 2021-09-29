@@ -23,7 +23,8 @@ article .wrapper .contenedor-info .dato:nth-child(1){
 }
 
 article .wrapper .contenedor-info h2 {
-    background: linear-gradient(60deg,#ff6a3f,#df1238);
+    background: linear-gradient(60deg,#FCE40B,#8BF609);
+     /* linear-gradient(60deg,#ff6a3f,#df1238); */
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;

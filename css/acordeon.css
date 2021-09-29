@@ -30,8 +30,10 @@ body .border {
 
 body .par {
     width: 100%;
+    height: 230px;
     padding: 20px 0px;
-    background: rgba(255,255,255, 1);
+    background: rgba(0, 0, 0, .9);
+    /* linear-gradient(60deg,#FCE40B,#8BF609); */
     margin: 0;
     display: none;
     /* display: flex;
@@ -42,7 +44,7 @@ body .par {
 
 body .par a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     margin-bottom: 0px;
     display: block;
     text-align: center;

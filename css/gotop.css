@@ -1,0 +1,273 @@
+.go-top-cont {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 66px;
+    height: 66px;
+    z-index: -10;
+}
+
+.go-top-cont .btn {
+    width: 0px;
+    height: 0px;
+    background: linear-gradient(60deg,#FCE40B,#8BF609);
+    border-radius: 50%;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -10;
+}
+
+.go-top-cont .btn i {
+    position: absolute;
+    font-size: 17px;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2);
+    color: #fff;
+    transition: .2s;
+}
+
+.show {
+    z-index: 100;
+}
+
+.show .btn {
+    animation: popup .3s ease-in-out;
+    width: 66px;
+    height: 66px;
+    z-index: 110;
+}
+
+.show i {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes popup {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+    50%{
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        width: 66px;
+        height: 66px;
+    }
+}
+
+
+@media screen and (max-width: 880px) {
+    .go-top-cont {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 66px;
+        height: 66px;
+        z-index: -10;
+    }
+    
+    .go-top-cont .btn i {
+        position: absolute;
+        font-size: 17px;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(2);
+        color: #fff;
+        transition: .2s;
+    }
+    
+    .show {
+        z-index: 100;
+    }
+    
+    .show .btn {
+        animation: popup .3s ease-in-out;
+        width: 56px;
+        height: 56px;
+        z-index: 110;
+    }
+    
+    .show i {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    
+    @keyframes popup {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+        50%{
+            width: 80px;
+            height: 80px;
+        }
+        100%{
+            width: 66px;
+            height: 66px;
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+    .go-top-cont {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 53px;
+        height: 53px;
+        z-index: -10;
+    }
+    
+    .go-top-cont .btn i {
+        position: absolute;
+        font-size: 15px;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(2);
+        color: #fff;
+        transition: .2s;
+    }
+    
+    .show {
+        z-index: 100;
+    }
+    
+    .show .btn {
+        animation: popup .3s ease-in-out;
+        width: 50px;
+        height: 50px;
+        z-index: 110;
+    }
+    
+    .show i {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    
+    @keyframes popup {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+        50%{
+            width: 80px;
+            height: 80px;
+        }
+        100%{
+            width: 66px;
+            height: 66px;
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+    .go-top-cont {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 53px;
+        height: 40px;
+        z-index: -10;
+    }
+    
+    .go-top-cont .btn i {
+        position: absolute;
+        font-size: 15px;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(2);
+        color: #fff;
+        transition: .2s;
+    }
+    
+    .show {
+        z-index: 100;
+    }
+    
+    .show .btn {
+        animation: popup .3s ease-in-out;
+        width: 50px;
+        height: 50px;
+        z-index: 110;
+    }
+    
+    .show i {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    
+    @keyframes popup {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+        50%{
+            width: 80px;
+            height: 80px;
+        }
+        100%{
+            width: 66px;
+            height: 66px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .go-top-cont {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 40px;
+        height: 35px;
+        z-index: -10;
+    }
+    
+    .go-top-cont .btn i {
+        position: absolute;
+        font-size: 12px;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(2);
+        color: #fff;
+        transition: .2s;
+    }
+    
+    .show {
+        z-index: 100;
+    }
+    
+    .show .btn {
+        animation: popup .3s ease-in-out;
+        width: 45px;
+        height: 45px;
+        z-index: 110;
+    }
+    
+    .show i {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    
+    @keyframes popup {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+        50%{
+            width: 70px;
+            height: 70px;
+        }
+        100%{
+            width: 66px;
+            height: 66px;
+        }
+    }
+}
