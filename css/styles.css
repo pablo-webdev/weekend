@@ -362,12 +362,12 @@ main .contenedor-img img {
 
 @media screen and (max-width: 440px) {
      .menu  {
-          display: flex;
-          flex-direction: column;
+          display: none; /*ANTERIORMENTE FLEX CON LAS PROPIEDADES DE ABAJO*/
+          /* flex-direction: column;
           justify-content: center;
           align-items: center;
           align-content: center;
-          flex-wrap: wrap;
+          flex-wrap: wrap; */
      }
      
      .menu a {
@@ -432,12 +432,12 @@ main .contenedor-img img {
 
 @media screen and (max-width: 382px) {
      .menu  {
-          display: flex;
-          flex-direction: column;
+          display: none; /*ANTERIORMENTE: FLEX CON LAS PROPIEDADES DE ABAJO DESCOMENTADAS*/
+          /* flex-direction: column;
           justify-content: center;
           align-items: center;
           align-content: center;
-          flex-wrap: wrap;
+          flex-wrap: wrap; */
      }
      
      .menu a {
