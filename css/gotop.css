@@ -10,13 +10,18 @@
 .go-top-cont .btn {
     width: 0px;
     height: 0px;
-    background: linear-gradient(60deg,#FCE40B,#8BF609);
+    background: linear-gradient(60deg,rgb(252, 228, 11),rgb(139, 246, 9));
     border-radius: 50%;
     cursor: pointer;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -10;
+}
+
+.go-top-cont .btn:hover {
+    background: linear-gradient(60deg,rgba(252,228,11,0.8), rgba(139,246,9,0.8));
+    transition: 29s;
 }
 
 .go-top-cont .btn i {

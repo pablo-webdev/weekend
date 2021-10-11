@@ -1,0 +1,52 @@
+/* CONTENEDORES GENERALES */
+.hero {
+    width: 100%;
+    margin: 0;
+    display: block;
+    position: static;
+}
+
+.hero .wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: rgb(43, 40, 46);
+}
+
+/* TITULAR */
+.hero .wrapper .titular {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hero .wrapper .titular .imagen {
+    width: 50%;
+    height: 430px;
+}
+
+.hero .wrapper .titular .titulo {
+    width: 50%;
+    background: pink;
+}
+
+/* BANNER */
+.hero .wrapper .banner {
+    width: 100%;
+    height: 450px;
+    background:rgb(124, 124, 206);
+}
+
+/* CARRETE */
+.hero .wrapper .carrete {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.hero .wrapper .carrete .imagen {
+    width: 25%;
+    height: 200px;
+}
