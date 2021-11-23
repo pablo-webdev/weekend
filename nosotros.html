@@ -4,8 +4,9 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <title>Nosotros | Weekend</title>
+     <title>Nosotros | Midnight Sound</title>
      <!-- FUENTES | ICONOS -->
+     <link rel="stylesheet" href="css/fontello.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -17,39 +18,52 @@
      <!-- ESTILOS CSS -->
      <link rel="stylesheet" href="css/normalize.css">
      <link rel="stylesheet" href="./css/styles.css">
-     <link rel="stylesheet" href="css/acordeon.css">
      <link rel="stylesheet" href="css/nosotros.css">
      <link rel="stylesheet" href="css/gotop.css">
      <link rel="stylesheet" href="css/article.css">
      <link rel="stylesheet" href="css/section.css">
      <link rel="stylesheet" href="css/footer.css">
 </head>
-<body>
+<body> 
+    <!-- HEADER -->
+    <header>
+        <input type="checkbox" id="burger">
+		<label class="icon-menu" for="burger"></label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- MAIN -->
 
     <div class="hero">
         <div class="wrapper">
             <div class="titular">
-                <div class="imagen"><img src="img/nosotros/titular-img.jp" alt=""></div>
+                <div class="imagen"><img src="img/nosotros/titular-img.jpg" alt=""></div>
                 <div class="titulo">
                     <h1>30 años de experiencia</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quos quaerat.</p>
+                    <p>Entregando excelencia y calidad.</p>
                 </div>
             </div>
 
             <div class="banner">
-                <h2>equipo profesional</h2>
-                <p>La mejor calidad en nuestros productos para tus eventos.</p>
-                <div class="btn"><a href="#">contactar</a></div> 
-                <!-- EN ESTE DIV DEBE IR UNA IMG DE FONDO -->
+                <div class="banner-contenedor">
+                    <h2>equipo profesional</h2>
+                    <p>Entregando excelencia y calidad.</p>
+                    <div class="btn"><a href="#">contactar</a></div> 
+                    <!-- EN ESTE DIV DEBE IR UNA IMG DE FONDO -->
+                </div>
             </div>
 
             <div class="carrete">
-                <div class="imagen uno"><img src="img/nosotros/carrete-01.jp" alt=""></div>
-                <div class="imagen dos"><img src="img/nosotros/carrete-02.jp" alt=""></div>
-                <div class="imagen tres"><img src="img/nosotros/carrete-03.jp" alt=""></div>
-                <div class="imagen cuatro"><img src="img/nosotros/carrete-04.jp" alt=""></div>
+                <div class="imagen uno"><a href="#"><img src="img/nosotros/altern04-indoors.jpg" alt=""></a></div>
+                <div class="imagen dos"><a href="#"><img src="img/nosotros/altern02-stairs.jpg" alt=""></a></div>
+                <div class="imagen tres"><a href="#"><img src="img/nosotros/altern05-security.jpg" alt=""></a></div>
+                <div class="imagen cuatro"><a href="#"><img src="img/nosotros/altern03-equipo.jpg" alt=""></a></div>
             </div>
         </div>
     </div>
@@ -76,7 +90,7 @@
                     <a href=""><i class="fab fa-youtube yt"></i></a>
                </div>
                <div class="info">
-                    <h4>Weekend &reg; - 2021 | <a href="">WEB: Pablo Vaquerizo</h4></a>
+                    <h4>Midnight Sound &reg; - 2021 | <a href="">WEB: Pablo Vaquerizo</h4></a>
                </div>
           </div>
      </footer>

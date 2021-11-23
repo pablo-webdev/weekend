@@ -4,5 +4,7 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"px-to-rem.px-per-rem": 16
+	}
 }

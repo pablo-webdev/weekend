@@ -3,9 +3,9 @@
 const typed = new Typed('.typed', {
 	strings: [
 		'<i class="mascota">eventos</i>',
-		'<i class="mascota">XV años</i>',
+		'<i class="mascota">reuniones</i>',
 		'<i class="mascota">fiestas</i>',
-		'<i class="mascota">bodas</i>'
+		// '<i class="mascota">graduaciones</i>'
 	],
 
 	//stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
