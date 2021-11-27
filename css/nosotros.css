@@ -1,10 +1,10 @@
-/*GENERALES*/
+/*GENERALES ------------------------------------------------>*/
 img {
     object-fit: cover;
     min-width: 100%;
 }
 
-/* CONTENEDORES GENERALES */
+/* CONTENEDORES GENERALES ------------------------------------------------>*/
 .hero {
     width: 100%;
     margin: 0;
@@ -20,7 +20,7 @@ img {
     overflow: hidden;
 }
 
-/* HEADER */
+/* HEADER ------------------------------------------------> */
 #burger, header label {
     display: none;
 }
@@ -62,7 +62,14 @@ header nav ul li a:hover {
     transition: all 0.6s ease;
 }
 
-/* TITULAR */
+/* TITULAR ------------------------------------------------>*/
+.titular .titulo i {
+    color: #FFCF47;
+    font-size: 38px;
+    margin-bottom: 20px;
+    display: none;
+}
+
 .titular {
     margin-top: 73px;
 }
@@ -115,7 +122,7 @@ header nav ul li a:hover {
     width: 100%;
 }
 
-/* BANNER */
+/* BANNER ------------------------------------------------>*/
 .hero .wrapper .banner {
     width: 100%;
     min-height: 450px;
@@ -173,7 +180,7 @@ header nav ul li a:hover {
     align-items: center;
 }
 
-/* CARRETE */
+/* CARRETE ------------------------------------------------>*/
 .hero .wrapper .carrete {
     width: 100%;
     display: flex;
@@ -191,6 +198,91 @@ header nav ul li a:hover {
     transition: 300ms;
 }
 
+/* PERSONAL ------------------------------------------------>*/
+.equipo .wrapper {
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    color: #fff;
+}
+
+.equipo .wrapper h2 {
+    width: 100%;
+}
+
+.equipo .wrapper .personas {
+    width: 48%;
+}
+
+.equipo .wrapper .personas .personas__contenedor {
+    width: 100%;
+    height: 150px;
+    background: #131212;
+    margin-top: 20px;
+    display: flex;
+}
+
+.equipo .wrapper .personas .personas__contenedor .imagen {
+    width: 25%;
+    height: 100%;
+}
+
+.equipo .wrapper .personas .personas__contenedor .imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.equipo .wrapper .personas .personas__contenedor .info {
+    width: 73%;
+}
+
+.equipo .wrapper .personas .personas__contenedor .info h3 {
+    color: #fff;
+    padding: 20px 0px 0px 25px;
+}
+
+.equipo .wrapper .personas .personas__contenedor .info p {
+    color: #fff;
+    padding: 4px 0px 0px 25px;
+    text-align: justify;
+}
+
+.equipo .wrapper .descripcion {
+    width: 40%;
+    height: 100%;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+
+.equipo .wrapper .descripcion .descripcion__parrafo p{
+    font-size: 26px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.equipo .wrapper .descripcion .descripcion__icono {
+    margin-top: 60px;
+}
+
+.equipo .wrapper .descripcion .descripcion__icono i {
+    font-size: 75px;
+    color: #FFF;
+}
+
+.equipo .wrapper .descripcion .descripcion__icono .uno {
+    color: #b9b9b9;
+    margin-right: -68px;
+}
+
+.equipo .wrapper .descripcion .descripcion__icono .tres {
+    color: #dddddd;
+    margin-left: -68px;
+}
 /* MEDIAQUERIES */
 
 @media screen and (max-width: 860px) {
@@ -263,6 +355,25 @@ header nav ul li a:hover {
 
     .hero .wrapper .carrete .imagen {
         width: 50%;
+    }
+    
+    .equipo .wrapper {
+        flex-direction: column;
+    }
+
+    .equipo .wrapper .personas {
+        width: 100%;
+    }
+
+    .equipo .wrapper .descripcion {
+        width: 100%;
+        height: 100%;
+        margin-top: 60px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
     }
 }
 
