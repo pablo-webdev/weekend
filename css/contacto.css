@@ -1,0 +1,101 @@
+/*GENERALES ------------------------------------------------>*/
+img {
+    object-fit: cover;
+    min-width: 100%;
+}
+
+/* MAIN ---------------------------------------------------- */
+main {
+    margin-top: 73px;
+    height: auto;
+    padding: 60px 0;
+    justify-content: center;
+    flex-direction: column;
+    background: #2B2B2B;
+}
+
+main h1 {
+    background: linear-gradient(60deg,#FCE40B,#8BF609);
+    /* linear-gradient(60deg,#ff6a3f,#df1238); */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent; /*TEXTO CON FONDO DEGRADADO*/
+    margin: 60px 0 60px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 34px;
+    text-align: center;
+}
+
+main .wrapper {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ELEMENTOS DE CONTACTO ----------------------------------------------------------- */
+main .wrapper .elemento-flex {
+    width: 33%;
+    height: auto;
+    padding: 20px 0px;
+    color: #fff;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+main .wrapper .elemento-flex i {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.4);
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+main .wrapper .elemento-flex h2 {
+    margin-bottom: 25px;
+}
+
+main .wrapper .elemento-flex h3 {
+    margin-bottom: 5px;
+}
+
+main .wrapper .elemento-flex p {
+    margin-bottom: 20px;
+}
+
+/* FORMULARIO ----------------------------------------------------------- */
+section {
+    
+}
+
+section .wrapper {
+
+} 
+
+section .wrapper form {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* MEDIAQUERIES ----------------------------------------------------------- */
+
+@media screen and (max-width: 860px){
+    main .wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .wrapper .elemento-flex {
+        width: 100%;
+    }
+}
