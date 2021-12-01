@@ -1,3 +1,5 @@
+@import url(header.css);
+
 /*GENERALES ------------------------------------------------>*/
 img {
     object-fit: cover;
@@ -21,46 +23,8 @@ img {
 }
 
 /* HEADER ------------------------------------------------> */
-#burger, header label {
-    display: none;
-}
 
 
-#burger:checked ~ nav {
-    transform: translate(0);
-}
-
-header {
-    width: 100%;
-    min-height: 73px;
-    max-height: 73px;
-    /* background-color: rgba(0, 0, 0, .3); */
-    background: #131212;
-    margin: 0;  
-    padding: 25px 100px;
-    position: fixed;
-    z-index: 200;
-}
-
-header nav ul {
-    list-style: none;
-}
-
-header nav ul li {
-    display: inline-block;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    margin-left: 40px;
-    font-size: 22px;
-}
-
-header nav ul li a:hover {
-    color: #f2c968;
-    transition: all 0.6s ease;
-}
 
 /* TITULAR ------------------------------------------------>*/
 .titular .titulo i {
@@ -286,62 +250,6 @@ header nav ul li a:hover {
 /* MEDIAQUERIES */
 
 @media screen and (max-width: 860px) {
-    header {
-        justify-content: right;
-        padding: 0px 25px;
-    }
-
-    header nav {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        background: rgba(51, 51, 51, .9);
-        top: 73px;
-        right: 0;
-        transition: all 0.6s;
-        transform: translate(100%);
-        align-items: center;
-    } 
-    
-
-    header label {
-        font-size: 29px;
-        cursor: pointer;
-        color: #fff;
-        display: block;
-    }
-
-
-    /* header nav {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        background: rgba(51, 51, 51, .9);
-        top: 73px;
-        right: 0;
-        transition: all 0.6s;
-        transform: translate(100%);
-        align-items: center;
-    } */
-
-    header nav ul {
-        margin-top: 30px;
-    }
-
-    header nav ul li {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    header nav ul li a {
-        color: #fff;
-        text-decoration: none;
-        margin-left: 0px;
-        font-size: 22px;
-        padding: 7px 0;
-    }
-
     /* LO DE ABAJO */
     .hero .wrapper .titular {
         flex-direction: column;

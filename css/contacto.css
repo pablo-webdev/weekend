@@ -74,18 +74,46 @@ main .wrapper .elemento-flex p {
 
 /* FORMULARIO ----------------------------------------------------------- */
 section {
-    
 }
 
 section .wrapper {
-
+    display: flex;
+    justify-content: space-between;
 } 
 
-section .wrapper form {
-    display: flex;
-    flex-flow: column wrap;
+section .wrapper .info {
+    width: 45%;
+    color: #fff;
+    font-size: 22px;
 }
 
+section .wrapper form {
+    width: 48%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+section .wrapper form input[type="text"],
+section .wrapper form input[type="email"] {
+    width: 48%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+section .wrapper form textarea {
+    width: 100%;
+    padding: 10px;
+    resize: vertical;
+    max-height: 350px;
+    min-height: 250px;
+    margin-bottom: 20px;
+}
+
+section .wrapper form input[type="submit"] {
+    text-align: center;
+    padding: 10px 20px;
+}
 /* MEDIAQUERIES ----------------------------------------------------------- */
 
 @media screen and (max-width: 860px){
@@ -95,7 +123,38 @@ section .wrapper form {
         align-items: center;
     }
 
+    main h1 {
+        font-size: 1.9rem;
+    }
+
     main .wrapper .elemento-flex {
         width: 100%;
     }
+
+    section .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    } 
+
+    section .wrapper .info {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    
+    section .wrapper form {
+        width: 100%;
+        justify-content: center;
+    }
+
+    section .wrapper form input[type="text"],
+    section .wrapper form input[type="email"] {
+    width: 100%;
+    margin-bottom: 20px;
+    }
+
+    section .wrapper form textarea {
+        margin-bottom: 40px;
+    }    
 }
