@@ -26,6 +26,9 @@
      <link rel="stylesheet" href="css/article.css">
      <link rel="stylesheet" href="css/section.css">
      <link rel="stylesheet" href="css/footer.css">
+     <!-- SCRIPTS -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+     <script src="jquery/jq.js"></script>
 </head>
 <body>
     <!-- HEADER -->
@@ -45,7 +48,7 @@
         <h1>SIGA EN CONTACTO</h1>
         <div class="wrapper">
             <div class="mapa elemento-flex">
-                <i class="icon-location"></i>
+                <i class="icon-location mapa-jq"></i>
                 <h2>Dirección</h2>
                 <h3>Oficina Principal</h3>
                 <p>Calzada de las Américas 72.<br>CP: 29264</p>
@@ -55,7 +58,7 @@
                 <p>Calle 24 de noviembre,<br> CP: 29221</p>
             </div>
             <div class="telefono elemento-flex">
-                <i class="icon-phone"></i>
+                <i class="icon-phone telefono-jq"></i>
                 <h2>Teléfonos</h2>
                 <h3>Oficina Principal</strong></h3>
                 <p>967-152-36-83</p>
@@ -65,7 +68,7 @@
                 <p>967-281-80-00</p>
             </div>
             <div class="mensaje elemento-flex">
-                <i class="icon-comment"></i>
+                <i class="icon-comment mensaje-jq"></i>
                 <h2>Mensajes</h2>
                 <h3>Precios y cotizaciones</h3>
                 <p>contacto-especial@gmail.com</p>
@@ -87,14 +90,20 @@
             </div>
 
             <form action="">
-                <input type="text" placeholder="Nombre completo:">
-                <input type="email" placeholder="Email">
-                <textarea placeholder="Mensaje"></textarea>
+                <input type="text" placeholder="Nombre:*" class="nombre">
+                <input type="email" placeholder="Email:*" class="email">
+                <input type="text" placeholder="Empresa:" class="empresa">
+                <textarea placeholder="Mensaje*" class="msj"></textarea>
                 <input type="submit">
             </form>
         </div>
     </section>
 
+    <section class="mapa">
+        <div class="wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15284.502406685664!2d-92.645222780748!3d16.720583675221675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1638502553035!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
 
     <footer>
         <div class="contenedor-footer">

@@ -73,8 +73,8 @@ main .wrapper .elemento-flex p {
 }
 
 /* FORMULARIO ----------------------------------------------------------- */
-section {
-}
+/* section {
+} */
 
 section .wrapper {
     display: flex;
@@ -101,6 +101,10 @@ section .wrapper form input[type="email"] {
     padding: 10px;
 }
 
+section .wrapper form input.empresa {
+    width: 100%;
+}
+
 section .wrapper form textarea {
     width: 100%;
     padding: 10px;
@@ -114,6 +118,27 @@ section .wrapper form input[type="submit"] {
     text-align: center;
     padding: 10px 20px;
 }
+
+/* MAPA ------------------------------------------------------------------- */
+section.mapa {
+    width: 100%;
+    height: 600px;
+    background: #2B2B2B;
+    padding: 0;
+}
+
+section.mapa .wrapper {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+section.mapa .wrapper iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
 /* MEDIAQUERIES ----------------------------------------------------------- */
 
 @media screen and (max-width: 860px){
